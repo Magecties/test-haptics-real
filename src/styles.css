@@ -93,3 +93,40 @@ button {
   font-size: 0.85rem;
 }
 .check.on { background: #064e3b; border-color: #10b981; }
+
+.readout {
+  background: #14181d;
+  border: 1px solid #2a2f37;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+}
+.readout-big {
+  font-size: 3rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+.readout-unit { font-size: 1rem; opacity: 0.6; font-weight: 400; }
+.readout-sub {
+  margin-top: 6px;
+  font-size: 0.85rem;
+  opacity: 0.75;
+  font-variant-numeric: tabular-nums;
+}
+.badge {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #10b981;
+  color: #04221a;
+  font-weight: 700;
+  font-size: 0.75rem;
+}
+.peak-marker {
+  position: absolute;
+  top: 0; bottom: 0;
+  width: 3px;
+  background: #facc15;
+}
